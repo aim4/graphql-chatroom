@@ -2,3 +2,10 @@ type User {
   id: ID! @id
   name: String!
 }
+
+type Message {
+  id: ID! @id @unique
+  from: String!
+  content: String!
+  createdAt: DateTime! @createdAt
+}
