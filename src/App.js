@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient();
 
 function App() {
   return (

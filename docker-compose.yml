@@ -14,8 +14,8 @@ services:
           default:
             connector: postgres
             host: postgres
-            user: prisma
-            password: prisma
+            user: postgres
+            password: postgres
             rawAccess: true
             port: 5432
             migrations: true
